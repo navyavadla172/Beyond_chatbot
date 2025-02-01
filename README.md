@@ -1,33 +1,49 @@
-# Chatbot Setup Project
-
+Chatbot Setup Project
 This project is a mobile-responsive UI for setting up a chatbot, including user registration, organization setup, and chatbot testing.
 
-## Features
+Features
+User Registration: Create an account with email and password for secure login.
+Google Sign-in Option: (Placeholder for now) Integrate Google Sign-In functionality.
+Organization Setup: Automatically fetch metadata and display information from the organization's URL.
+Chatbot Testing Interface: Test your chatbot within the platform with a success/failure response system.
+Technologies Used
+Next.js: Framework for React applications with features like SSR and static site generation.
+React: A JavaScript library for building user interfaces.
+Tailwind CSS: Utility-first CSS framework for fast styling and customization.
+TypeScript: A superset of JavaScript that adds static types for better development experience.
+Getting Started
+To get this project running locally, follow these steps:
 
-- User registration with email and password
-- Google Sign-in option (placeholder)
-- Organization setup with metadata fetching
-- Chatbot testing interface
+Clone the repository:
+Run the following command to clone the repository:
 
-## Technologies Used
+bash
+Copy
+Edit
+git clone <repository_url>
+Install dependencies:
+Navigate into the project folder and install the dependencies using npm:
 
-- Next.js
-- React
-- Tailwind CSS
-- TypeScript
+bash
+Copy
+Edit
+npm install
+Run the development server:
+Start the development server:
 
-## Getting Started
+bash
+Copy
+Edit
+npm run dev
+Access the app:
+Open http://localhost:3000 in your browser to see the application running.
 
-1. Clone the repository
-2. Install dependencies with `npm install`
-3. Run the development server with `npm run dev`
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+Deployment
+The project is deployed on Vercel. You can access the live application at https://v0-beyond-chatbot-foqjvc.vercel.app/
 
-## Deployment
+Contributing
+We welcome contributions! If you'd like to contribute:
 
-This project is set up to be easily deployed on Vercel.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
+Fork the repository.
+Create a new branch for your feature or bugfix.
+Submit a Pull Request.
